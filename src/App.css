@@ -1,0 +1,55 @@
+/* header css*/
+
+.header{
+  width: 100%;
+  padding: 10px 5%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  width: 20%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+/* news article css */
+
+.news-articles{
+  width: 100%;
+  padding: 30px 5%;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  column-gap: 4%;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.news{
+  width: 22%;
+  padding: 20px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  border-radius: 5px;
+}
+
+.news-img img{
+  width: 100%;
+  height: 200px;
+  /* background-color: blue; */
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+}
+.source{
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
